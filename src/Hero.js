@@ -60,38 +60,42 @@ const Hero = () => {
             </div>
 
             <div className='flex text-2xl font-semibold'>
-               <p classNa> =' text-2xl font-semibold'My Space/</p><span className='text-yellow-500 text-2xl font-semibold'>Attendance</span>
+               <p className =' text-2xl font-semibold'>My Space/</p><span className='text-yellow-500 text-2xl font-semibold'>Attendance</span>
             </div>
-            <div className='flex flex-col gap-4'>
-                <div className='flex justify-around gap-5'>
-                    <p>Attendance Status</p>
-                    <p>Timings</p>
-                    <p>Action</p>
+            <div className='flex flex-col gap-4   '>
+                <div className='border border-red-500 w-9/12 mx-auto gap-2 '>
+                <div className='flex justify-between gap-5'>
+                    <p className=' text-xl'>Attendance Status</p>
+                    <p className=' text-xl'>Timings</p>
+                    <p className=' text-xl'>Action</p>
                 </div>
-                <div className='flex justify-around gap-5'>
+                <div className='flex justify-between gap-5 mt-3  w-8/12'>
                     <p className='flex items-center'>Last Week<IoIosArrowDown /></p>
                     <div className='flex gap-2'>
                     <div className='flex gap-2'>
-                        <p className='border border-gray-400 rounded-full px-1 text-center'>M</p>
-                        <p className='border border-gray-400 rounded-full px-2 text-center'>T</p>
-                        <p className='border border-gray-400 rounded-full px-1 text-center'>W</p>
-                        <p className='border border-gray-400 rounded-full px-1 text-center'>T</p>
-                        <p className='border border-gray-400 rounded-full px-1 text-center'>F</p>
-                        <p className='border border-gray-400 rounded-full px-1 text-center'>F</p>
-                        <p className='border border-gray-400 rounded-full px-1 text-center'>S</p>
-                        <p className='border border-gray-400 rounded-full px-1 text-center'>S</p>
+                        <p className='border border-gray-400 rounded-full px-1 text-center text-lg'>M</p>
+                        <p className='border border-gray-400 rounded-full px-2 text-center text-lg'>T</p>
+                        <p className='border border-gray-400 rounded-full px-1 text-center text-lg'>W</p>
+                        <p className='border border-gray-400 rounded-full px-1 text-center  text-lg'>T</p>
+                        <p className='border border-gray-400 rounded-full px-1 text-center text-lg'>F</p>
+                        <p className='border border-gray-400 rounded-full px-1 text-center text-lg'>F</p>
+                        <p className='border border-gray-400 rounded-full px-1 text-center text-lg'>S</p>
+                        <p className='border border-gray-400 rounded-full px-1 text-center text-lg'>S</p>
                     </div>
                     </div>
                 </div>
                 <div>
-                    <div className='flex gap-3'>
-                        <div>
-                            <p className='flex items-center'><FaRegClock />Avg hrs/Day</p>
-                            <p>(6 hrs 48m)</p>
-                        </div>
-                        <div>
-                            <p className='flex items-center'><IoIosTimer  className='p-0 text-green-400 text-xl'/>On Time Arrival</p>
-                            <p className='text-sm'>95%</p>
+                    <div className='flex gap-3 mt-4'>
+                        <div className='  border    shadow-3xl w-[35%] flex gap-5  p-2 '>
+                           <div>
+                           <p className='flex items-center  text-lg'><FaRegClock  className=' mr-2'/>Avg hrs/Day</p>
+                            <p className=' text-md items-center ml-5'>(6 hrs 48m)</p>
+                       
+                           </div>
+                            <div>
+                            <p  className='flex items-center  text-lg'><IoIosTimer  className='p-0 text-green-400 text-xl mr-2'/>On Time Arrival</p>
+                            <p className=' text-md items-center ml-12'>95%</p>
+                            </div>
                         </div>
                         <div>
                             <p>04:04:39 PM</p>
@@ -102,6 +106,7 @@ const Hero = () => {
                             <button className='bg-yellow-500 text-black rounded-md px-2 p-1'>Work From Home</button>
                         </div>
                     </div>
+                </div>
                 </div>
                 <div className='flex flex-col gap-3'>
                     <div>Logs & Request</div>
