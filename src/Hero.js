@@ -26,9 +26,9 @@ const Hero = () => {
                 <p className='font-semibold flex items-center justify-center'>Indors & Architechture</p>
             </div>
             <div className='flex flex-col gap-3 p-4'>
-                <p className='flex items-center gap-2 bg-white text-black rounded-xl px-2 p-1'><IoHomeOutline />Home</p>
-                <p className='flex items-center gap-2 bg-yellow-500 py-1 px-2 text-white rounded-xl'><VscGraph />My Space<MdKeyboardArrowUp /></p>
-                <div className='pl-3'>
+                <p className='flex items-center gap-2 bg-white text-black rounded-xl px-5 p-2  -translate-x-7'>     <IoHomeOutline />Home</p>
+                <p className='flex items-center gap-2 bg-yellow-500 py-2 px-5 text-white rounded-xl  -translate-x-7'><VscGraph />My Space<MdKeyboardArrowUp /></p>
+                <div className='flex flex-col gap-3 text-md font-semibold'>
                     <p>Leave</p>
                     <p className='text-yellow-500'>Attendance</p>
                     <p>Performance</p>
