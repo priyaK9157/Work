@@ -3,8 +3,8 @@ import Hero from './Hero'
 
 const App = () => {
   return (
-    <div>
-      <Hero/>
+    <div className=' overflow-hidden'>
+      <Hero />
     </div>
   )
 }
