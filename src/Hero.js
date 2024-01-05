@@ -19,7 +19,7 @@ import { MdKeyboardArrowUp } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <div className='flex border border-gray-500 shadow-md bg-black text-white text-sm font-sans w-screen h-screen'>
+    <div className='flex border border-gray-500 shadow-md bg-black text-white text-sm font-sans w-screen h-[47rem]'>
         <div className='flex flex-col border border-gray-400 gap-8 w-[15%]'>
             <div  className=' ml-1 mt-2'>
                 <p className=' text-2xl'>KDISP</p>
@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <div className='flex flex-col gap-4 mt-2 justify-around border border-red-500 w-screen ml-10'>
+        <div className='flex flex-col gap-4 mt-2 justify-around  w-screen ml-10'>
             <div className='flex items-center justify-center gap-4'>
             {/* Search Box */}
             <div className='flex justify-center relative bg-white rounded-md '>
@@ -63,7 +63,7 @@ const Hero = () => {
                <p className =' text-2xl font-semibold'>My Space/</p><span className='text-yellow-500 text-2xl font-semibold'>Attendance</span>
             </div>
             <div className='flex flex-col gap-4   '>
-                <div className='border border-red-500 w-9/12 mx-auto gap-2 '>
+                <div className=' w-9/12 mx-auto gap-2 '>
                 <div className='flex justify-between gap-5'>
                     <p className=' text-xl'>Attendance Status</p>
                     <p className=' text-xl'>Timings</p>
@@ -109,29 +109,29 @@ const Hero = () => {
                 </div>
                 </div>
                 <div className='flex flex-col gap-3'>
-                    <div>Logs & Request</div>
-                    <div>
-                    <button className='bg-yellow-500 text-black rounded-md px-4 p-1'>Attendance Log</button>
-                        <button className='border border-gray-400 px-2 p-1 rounded-md'>Attendance Request</button>
+                    <div className=' font-semibold text-xl'>Logs & Request</div>
+                    <div className=' flex '>
+                      <button className='bg-yellow-500 border-r-2 border-white text-black rounded-md px-4 p-2'>Attendance Log</button>
+                        <button className='border border-gray-400 px-2 p-2 rounded-md'>Attendance Request</button>
                     </div>
-                    <div>
-                        <div className='flex justify-around'>
-                            <p>December, 2023</p>
+                    <div className=' mt-2 border-2 border-white'>
+                        <div className='flex justify-around p-1 border-2 border-white'>
+                            <p className=' flex items-center text-lg font-semibold '>December, 2023</p>
                             <div className='flex border border-gray-400 gap-3'>
-                                <button className='bg-yellow-500 p-2'>30 Days</button>
-                                <button className=''>Nov</button>
-                                <button>Oct</button>
-                                <button>Sep</button>
-                                <button>Aug</button>
-                                <button>July</button>
-                                <button>Jun</button>
+                                <button className=' p-3 px-5 bg-yellow-500 '>30 Days</button>
+                                <button className='p-3 px-5 border-r-2 border-white flex items-center'>Nov</button>
+                                <button className='p-3 px-5 border-r-2 border-white'>Oct</button>
+                                <button  className='p-3 px-5 border-r-2 border-white'>Sep</button>
+                                <button  className='p-3 px-5 border-r-2 border-white'>Aug</button>
+                                <button  className='p-3 px-5 border-r-2 border-white'>July</button>
+                                <button  className='p-3 px-5 border-r-2 border-white'>Jun</button>
                             </div>
-                            <div className='flex '>
-                                <button className='bg-yellow-500 p-2'><FaBars /></button>
-                                <button className='p-2'><CiCalendar /></button>
+                            <div className='flex border-2 border-white '>
+                                <button className='bg-yellow-500 p-2 px-5'><FaBars /></button>
+                                <button className='p-2 px-5'><CiCalendar /></button>
                             </div>
                         </div>
-                        <div className='flex gap-5'>
+                        <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
                             <p>Date</p>
                             <p>Attendance Visual</p>
                             <p>Effective Hours</p>
@@ -140,50 +140,50 @@ const Hero = () => {
                             <p>Arrival</p>
                             <p>Log</p>
                         </div>
-                        <div className='flex gap-5'>
-                            <p>Dec 04, Mon</p>
-                            <p className='text-green-400'><FaBatteryFull /></p>
-                            <p className='flex items-center '><IoIosTimer className='text-green-400'/> 9h 15m</p>
-                            <p className='flex items-center'>9h 59m</p>
-                            <p>0h 59m</p>
-                            <p>On Time</p>
+                        <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
+                            <p className='-ml-3'>Dec 04, Mon</p>
+                            <p className='text-green-400  -translate-x-7'><FaBatteryFull /></p>
+                            <p className='flex items-center translate-x-6 '><IoIosTimer className='text-green-400'/> 9h 15m</p>
+                            <p className='flex items-center translate-x-6'>9h 59m</p>
+                            <p className='translate-x-6'>0h 59m</p>
+                            <p className='translate-x-6'>On Time</p>
                             <p className='flex items-center'><GoAlertFill /></p>
                         </div>
-                        <div className='flex gap-5'>
-                            <p>Dec 03, Sun<button>W-OFF</button></p>
-                            <p>Full day weekly-off</p>
+                        <div className=' w-12/13 gap-5  border border-white p-3 text-md font-semibold flex '>
+                            <p className=' translate-x-10'>Dec 03, Sun<button className='bg-yellow-500 p-1 translate-x-3 rounded-lg'>W-OFF</button></p>
+                            <p className=' translate-x-4 text-md font-semibold flex justify-center ml-[30%]'>Full day weekly-off</p>
                         </div>
-                        <div className='flex gap-5'>
-                            <p>Dec 02, Sat</p>
-                            <p className='flex items-center'><FaBatteryFull className='text-green-400' /></p>
-                            <p className='flex items-center'><IoIosTimer className='text-green-400'/> 9h 15m</p>
-                            <p>9h 59m</p>
-                            <p>0h 59m</p>
-                            <p>On Time</p>
+                        <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
+                            <p  className='-ml-3'>Dec 02, Sat</p>
+                            <p className='text-green-400  -translate-x-7'><FaBatteryFull className='text-green-400' /></p>
+                            <p className='flex items-center translate-x-6 '><IoIosTimer className='text-green-400'/> 9h 15m</p>
+                            <p  className='flex items-center translate-x-6'>9h 59m</p>
+                            <p className='translate-x-6'>0h 59m</p>
+                            <p  className='translate-x-6'>On Time</p>
                             <p className='flex items-center'><GoAlertFill /></p>
                         </div>
-                        <div className='flex gap-5'>
-                            <p className='flex items-center'>Dec 01, Fri</p>
-                            <p className='flex items-center'><FaBatteryFull className='text-green-400'/></p>
-                            <p className='flex items-center'><IoIosTimer className='text-green-400' /> 9h 15m</p>
-                            <p>9h 59m</p>
-                            <p>0h 59m</p>
-                            <p>On Time</p>
+                        <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
+                            <p  className='-ml-3'>Dec 02, Sat</p>
+                            <p className='text-green-400  -translate-x-7'><FaBatteryFull className='text-green-400' /></p>
+                            <p className='flex items-center translate-x-6 '><IoIosTimer className='text-green-400'/> 9h 15m</p>
+                            <p  className='flex items-center translate-x-6'>9h 59m</p>
+                            <p className='translate-x-6'>0h 59m</p>
+                            <p  className='translate-x-6'>On Time</p>
                             <p className='flex items-center'><GoAlertFill /></p>
                         </div>
-                        <div className='flex gap-5'>
-                            <p>Nov 30, Thus</p>
-                            <p className='flex items-center'><FaBatteryFull className='text-green-400'/></p>
-                            <p className='flex items-center'><IoIosTimer  className='text-green-400'/> 9h 15m</p>
-                            <p>9h 59m</p>
-                            <p>0h 59m</p>
-                            <p className='flex items-center'><GiTortoise />Oh 30m late</p>
+                         <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
+                            <p  className='-ml-3'>Dec 02, Sat</p>
+                            <p className='text-green-400  -translate-x-7'><FaBatteryFull className='text-green-400' /></p>
+                            <p className='flex items-center translate-x-6 '><IoIosTimer className='text-green-400'/> 9h 15m</p>
+                            <p  className='flex items-center translate-x-6'>9h 59m</p>
+                            <p className='translate-x-6'>0h 59m</p>
+                            <p  className='translate-x-6'>On Time</p>
                             <p className='flex items-center'><GoAlertFill /></p>
                         </div>
-                        <div className='flex gap-5'>
+                        {/* <div className='flex gap-5'>
                             <p>Nov 29, Wed<button>Leave</button></p>
                             <p>Sick Leave</p>
-                        </div>
+                        </div> */}
                         
                     </div>
                 </div>
