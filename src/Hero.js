@@ -19,9 +19,9 @@ import { MdKeyboardArrowUp } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <div className='flex border border-gray-500 shadow-md bg-black text-white text-sm font-sans w-screen h-[47rem]'>
-        <div className='flex flex-col border border-gray-400 gap-8 w-[15%]'>
-            <div  className=' ml-1 mt-2'>
+    <div className='flex border border-gray-500 shadow-md bg-black text-white text-sm font-sans w-screen h-[47rem] pt-3'>
+        <div className='flex flex-col border-r-2 border-gray-400 gap-8 w-[15%]'>
+            <div  className=' ml-1 mt-2 border-b-2 pb-10'>
                 <p className=' text-2xl font-semibold flex items-center justify-center'>KDISP</p>
                 <p className='font-semibold flex items-center justify-center'>Indors & Architechture</p>
             </div>
@@ -43,37 +43,37 @@ const Hero = () => {
             {/* Search Box */}
             <div className='flex justify-center relative bg-white rounded-md '>
                 <input
-                    className='px-20 py-3 focus:outline-none rounded-md flex justify-center  '
+                    className='px-40 py-5 focus:outline-none rounded-md flex justify-center  '
                     type='text'
                     placeholder='Search'
+                    className='bg-black'
                 />
-                <IoSearch className='absolute left-[90%] top-4 text-black' />
             </div>
 
             {/* Icons */}
                  <div className='flex items-center gap-4  text-1xl'>
-                    <IoIosNotificationsOutline className='text-gray-600 text-2xl'/>
-                    <MdForwardToInbox className='text-gray-600 text-2xl' />
-                    <IoContrast className='text-gray-600 text-2xl' />
-                    <FaRegUserCircle className='text-gray-600 text-2xl' />
+                    <IoIosNotificationsOutline className='text-gray-600 text-2xl border border-gray-400 rounded-md'/>
+                    <MdForwardToInbox className='text-gray-600 text-2xl border border-gray-400 rounded-md' />
+                    <IoContrast className='text-gray-600 text-2xl border border-gray-400 rounded-md' />
+                    <FaRegUserCircle className='text-gray-600 text-2xl border border-gray-400 rounded-md' />
                 </div>
             </div>
 
             <div className='flex text-2xl font-semibold'>
-               <p className =' text-2xl font-semibold'>My Space/</p><span className='text-yellow-500 text-2xl font-semibold'>Attendance</span>
+               <p className =' text-2xl font-semibold flex items-center'>My Space/</p><span className='text-yellow-500 flex items-center text-2xl font-semibold'>Attendance</span>
             </div>
 
             <div className='flex flex-col gap-4   '>
-                <div className='border border-red-500 w-10/12 gap-2 '>
+                <div className='border border-white w-10/12 gap-2 '>
                 <div className='flex justify-between gap-5'>
                     <p className=' text-xl'>Attendance Status</p>
-                    <p className=' text-xl -ml-24'>Timings</p>
-                    <p className=' text-xl'>Action</p>
+                    <p className=' text-xl -ml-72'>Timings</p>
+                    <p className=' text-xl -ml-40'>Action</p>
                 </div>
                 <div className='flex justify-between gap-5 mt-3  w-8/12'>
                     <p className='flex items-center'>Last Week<IoIosArrowDown /></p>
                     <div className='flex gap-2'>
-                    <div className='flex gap-2 -ml-40'>
+                    <div className='flex gap-2 -ml-64'>
                         <p className='border border-gray-400 rounded-full w-5 text-center text-sm'>M</p>
                         <p className='border border-gray-400 rounded-full w-5  text-center text-sm'>T</p>
                         <p className='border border-gray-400 rounded-full w-5 text-center text-sm text-yellow-500'>W</p>
@@ -87,7 +87,7 @@ const Hero = () => {
                 </div>
                 <div>
                     <div className='flex gap-3 mt-4'>
-                        <div className='border shadow-3xl w-[35%] flex gap-5  p-2 '>
+                        <div className='border shadow-3xl w-[35%] flex gap-5  p-2 border border-gray-400 '>
                            <div className='max-w-[40%]'>
                             <p className='flex items-center'><FaRegClock  className=' mr-2'/>Avg hrs/Day</p>
                                 <p className=' text-md items-center ml-5'>(6 hrs 48m)</p>
