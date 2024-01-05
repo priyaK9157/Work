@@ -22,8 +22,8 @@ const Hero = () => {
     <div className='flex border border-gray-500 shadow-md bg-black text-white text-sm font-sans w-screen h-[47rem]'>
         <div className='flex flex-col border border-gray-400 gap-8 w-[15%]'>
             <div  className=' ml-1 mt-2'>
-                <p className=' text-2xl'>KDISP</p>
-                <p>Indors & Architechture</p>
+                <p className=' text-2xl font-semibold flex items-center justify-center'>KDISP</p>
+                <p className='font-semibold flex items-center justify-center'>Indors & Architechture</p>
             </div>
             <div className='flex flex-col gap-3 p-4'>
                 <p className='flex items-center gap-2 bg-white text-black rounded-xl px-2 p-1'><IoHomeOutline />Home</p>
@@ -119,24 +119,24 @@ const Hero = () => {
                       <button className='bg-yellow-500 border-r-2 border-white text-black rounded-md px-4 p-2'>Attendance Log</button>
                         <button className='border border-gray-400 px-2 p-2 rounded-md'>Attendance Request</button>
                     </div>
-                    <div className=' mt-2 border-2 border-white'>
-                        <div className='flex justify-around p-1 border-2 border-white'>
+                    <div className=' mt-2 border-2 border-gray-400'>
+                        <div className='flex justify-around p-1 border-2 border-gray-400'>
                             <p className=' flex items-center text-lg font-semibold '>December, 2023</p>
                             <div className='flex border border-gray-400 gap-3'>
                                 <button className=' p-3 px-5 bg-yellow-500 '>30 Days</button>
-                                <button className='p-3 px-5 border-r-2 border-white flex items-center'>Nov</button>
-                                <button className='p-3 px-5 border-r-2 border-white'>Oct</button>
-                                <button  className='p-3 px-5 border-r-2 border-white'>Sep</button>
-                                <button  className='p-3 px-5 border-r-2 border-white'>Aug</button>
-                                <button  className='p-3 px-5 border-r-2 border-white'>July</button>
-                                <button  className='p-3 px-5 border-r-2 border-white'>Jun</button>
+                                <button className='p-3 px-5 border-r-2 border-gray-400 flex items-center'>Nov</button>
+                                <button className='p-3 px-5 border-r-2 border-gray-400'>Oct</button>
+                                <button  className='p-3 px-5 border-r-2 border-gray-400'>Sep</button>
+                                <button  className='p-3 px-5 border-r-2 border-gray-400'>Aug</button>
+                                <button  className='p-3 px-5 border-r-2 border-gray-400'>July</button>
+                                <button  className='p-3 px-5 border-r-2 border-gray-400'>Jun</button>
                             </div>
-                            <div className='flex border-2 border-white '>
+                            <div className='flex border-2 border-gray-400 '>
                                 <button className='bg-yellow-500 p-2 px-5'><FaBars /></button>
                                 <button className='p-2 px-5'><CiCalendar /></button>
                             </div>
                         </div>
-                        <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
+                        <div className=' w-12/13 gap-5  border border-gray-400 p-3 text-lg font-semibold flex justify-around'>
                             <p>Date</p>
                             <p>Attendance Visual</p>
                             <p>Effective Hours</p>
@@ -145,7 +145,7 @@ const Hero = () => {
                             <p>Arrival</p>
                             <p>Log</p>
                         </div>
-                        <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
+                        <div className=' w-12/13 gap-5  border border-gray-400 p-3 text-lg font-semibold flex justify-around'>
                             <p className='-ml-3'>Dec 04, Mon</p>
                             <p className='text-green-400  -translate-x-7'><FaBatteryFull /></p>
                             <p className='flex items-center translate-x-6 '><IoIosTimer className='text-green-400'/> 9h 15m</p>
@@ -154,11 +154,11 @@ const Hero = () => {
                             <p className='translate-x-6'>On Time</p>
                             <p className='flex items-center'><GoAlertFill /></p>
                         </div>
-                        <div className=' w-12/13 gap-5  border border-white p-3 text-md font-semibold flex '>
+                        <div className=' w-12/13 gap-5  border border-gray-400 p-3 text-md font-semibold flex '>
                             <p className=' translate-x-10'>Dec 03, Sun<button className='bg-yellow-500 p-1 translate-x-3 rounded-lg'>W-OFF</button></p>
                             <p className=' translate-x-4 text-md font-semibold flex justify-center ml-[30%]'>Full day weekly-off</p>
                         </div>
-                        <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
+                        <div className=' w-12/13 gap-5  border border-gray-400 p-3 text-lg font-semibold flex justify-around'>
                             <p  className='-ml-3'>Dec 02, Sat</p>
                             <p className='text-green-400  -translate-x-7'><FaBatteryFull className='text-green-400' /></p>
                             <p className='flex items-center translate-x-6 '><IoIosTimer className='text-green-400'/> 9h 15m</p>
@@ -167,7 +167,7 @@ const Hero = () => {
                             <p  className='translate-x-6'>On Time</p>
                             <p className='flex items-center'><GoAlertFill /></p>
                         </div>
-                        <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
+                        <div className=' w-12/13 gap-5  border border-gray-400 p-3 text-lg font-semibold flex justify-around'>
                             <p  className='-ml-3'>Dec 02, Sat</p>
                             <p className='text-green-400  -translate-x-7'><FaBatteryFull className='text-green-400' /></p>
                             <p className='flex items-center translate-x-6 '><IoIosTimer className='text-green-400'/> 9h 15m</p>
@@ -176,7 +176,7 @@ const Hero = () => {
                             <p  className='translate-x-6'>On Time</p>
                             <p className='flex items-center'><GoAlertFill /></p>
                         </div>
-                         <div className=' w-12/13 gap-5  border border-white p-3 text-lg font-semibold flex justify-around'>
+                         <div className=' w-12/13 gap-5  border border-gray-400 p-3 text-lg font-semibold flex justify-around'>
                             <p  className='-ml-3'>Dec 02, Sat</p>
                             <p className='text-green-400  -translate-x-7'><FaBatteryFull className='text-green-400' /></p>
                             <p className='flex items-center translate-x-6 '><IoIosTimer className='text-green-400'/> 9h 15m</p>
